@@ -1,0 +1,24 @@
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+.headerLogo{
+    font-size: 28px;
+    font-weight: 500;
+}
+.headerLogo img{
+    width: 30px;
+    height: auto;
+}
+.headerLinks{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.headerLinks div{
+    margin-left: 25px;
+    margin-right: 25px;
+}
