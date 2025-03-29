@@ -1,0 +1,51 @@
+.whatWeDoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.howWeWorkTextContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.whatWeDoContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.whatwedocard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.headerofwhatwedo{
+    font-weight: 500;
+    font-size: 22px;
+}
+.descofwhatwedo{
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;
+    text-align: center;
+}
+.circle{
+    display: flex;
+    background-color: #e3aa64;
+    color: white;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
