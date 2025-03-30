@@ -1,9 +1,9 @@
 from flask import Flask
 from flask_socketio import SocketIO, emit
 from flask_cors import CORS
+import google.generativeai as genai
 import speech_recognition as sr
 import pyttsx3
-import threading
 
 app = Flask(__name__)
 CORS(app)

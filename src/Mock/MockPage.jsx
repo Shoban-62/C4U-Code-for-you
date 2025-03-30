@@ -1,16 +1,23 @@
 import React from "react";
 import Camera from "./Camera";
 import Chat from "./Chat";
+import PoseDetection from "./PoseDetection";
 
 const MockPage = () => {
     return (
-        <div>
-            <div style={{color:'#e3aa64',fontSize:'32px',fontWeight:'600'}}>Mock<span style={{color: "#000000"}}>Test</span></div>
-            <div style={{display: 'flex', justifyContent: 'space-between',flexDirection: 'row'}}>
-                <Camera />
-                <Chat />
+        <div className="mock-page">
+            <div className="mock-header">
+                Mock<span>Test</span>
             </div>
-            
+            <div className="mock-content">
+                <div className="mock-main">
+                    <Camera />
+                    <Chat />
+                </div>
+                <div className="mock-sidebar">
+                    <PoseDetection />
+                </div>
+            </div>
         </div>
     );
 }
