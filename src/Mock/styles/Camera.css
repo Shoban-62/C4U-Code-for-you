@@ -1,0 +1,16 @@
+.control-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.control-buttons button{
+    background-color: #e3aa64;
+    padding: 15px;
+    display: flex;
+    border: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
